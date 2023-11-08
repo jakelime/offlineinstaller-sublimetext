@@ -2,6 +2,10 @@
 
 An offline installer for sublimetext
 
+## Installation guide
+
+Simply unzip to `C:\Users\jakelime\AppData\Local\SublimeText\subl.exe`
+
 ## Hook `subl` to powershell
 
 1. locate $profile using powershell
@@ -16,7 +20,7 @@ An offline installer for sublimetext
    ```powershell
    # C:\Users\jakelime\Documents\WindowsPowerShell\Microsoft.PowerShell_profile.ps1
    function subl ($arg){
-       & 'C:\Users\70014156\AppData\Local\SublimeText\subl.exe' $arg
+       & 'C:\Users\jakelime\AppData\Local\SublimeText\subl.exe' $arg
    }
    echo "custom functions loaded - @jakelime"
    ```
